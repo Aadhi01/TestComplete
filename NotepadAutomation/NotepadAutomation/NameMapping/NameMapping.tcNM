@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{AB2DC387-2A40-4FB7-869F-ECE9A94DC4DA}">
+				<TypeInfo Item0="{859B8135-2121-4DF3-A0CD-24A773404E66}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="notepad_" Key="{9EBECA84-06E2-40A6-AF6E-212E8E0D4135}">
+						<TypeInfo Item0="{ABB7F316-DD29-4611-B491-5C7389933595}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="notepad++" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndNotepad" Key="{68C7CA69-D39F-412C-9160-35B80A6D5F33}">
+								<Image FileName="1117264713" Left="0" Top="0" Right="1936" Bottom="1056" />
+								<TypeInfo Item0="{39E0F07F-9B98-44C2-BB8F-96488A434CE4}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Notepad++" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{CCB7934B-629C-40AF-BD7E-66C26EE450EE}">
+										<Image FileName="1117264713" Left="8" Top="51" Right="1928" Bottom="76" />
+										<TypeInfo Item0="{D43D6D99-A7CB-4C35-99A9-CCE30F78E71B}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="toolbar" Key="{00142EBB-684E-4B58-BE07-7C96C45C0747}">
+												<Image FileName="1117264713" Left="10" Top="51" Right="1928" Bottom="76" />
+												<TypeInfo Item0="{A6DFC874-B2FB-49AF-8E6F-B778A4E016D9}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="ToolbarWindow32" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="Scintilla" Key="{51B5C753-6C88-414D-91F9-F433F23C0EBE}">
+										<Image FileName="657197997" Left="10" Top="102" Right="1926" Bottom="1023" />
+										<TypeInfo Item0="{D43D6D99-A7CB-4C35-99A9-CCE30F78E71B}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Scintilla" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="N" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgSave" Key="{9AB47374-7331-43F9-8965-E5581BAAC2E8}">
+								<Image FileName="1499897131" Left="0" Top="0" Right="471" Bottom="159" />
+								<TypeInfo Item0="{39E0F07F-9B98-44C2-BB8F-96488A434CE4}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Save" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnNoToAll" Key="{EC9CA673-1DFA-44DD-B8C5-3D2611EE3C25}">
+										<Image FileName="-1168205093" Left="363" Top="124" Right="453" Bottom="147" />
+										<TypeInfo Item0="{AFDFCE5D-2859-411B-A584-8E16B327F7B6}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="N&amp;o to all" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgFindInFiles" Key="{C7D0F857-D86E-4B73-A9D3-FC8A140943FB}">
+								<Image FileName="83492165" Left="0" Top="0" Right="882" Bottom="364" />
+								<TypeInfo Item0="{39E0F07F-9B98-44C2-BB8F-96488A434CE4}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="tbcFindInFiles" Key="{AAF4A5B3-2F95-4E18-9210-BA1C0D65D1BD}">
+										<Image FileName="83492165" Left="8" Top="31" Right="874" Bottom="356" />
+										<TypeInfo Item0="{9BFD51BE-5527-45F3-B8C8-B3143AB32385}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SysTabControl32" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Tab" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="cbxFindWhat" Key="{C81D13C5-8A8D-4EF3-8ED4-D0178FD98A5C}">
+										<Image FileName="775021143" Left="133" Top="64" Right="693" Bottom="85" />
+										<TypeInfo Item0="{CB32FFD9-5D8B-4348-86E5-BAF9AA7D5DEC}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBox" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Edit" Key="{7C0C6D89-480B-4207-AF3B-70F359F4352A}">
+												<Image FileName="775021143" Left="136" Top="67" Right="673" Bottom="82" />
+												<TypeInfo Item0="{3DD5EFD9-A8FE-4370-8A98-B99D83760059}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Edit" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="btnFindNext" Key="{4E4846FB-2DF1-4DC4-9F00-89D41DB172D9}">
+										<Image FileName="-719011837" Left="703" Top="64" Right="840" Bottom="87" />
+										<TypeInfo Item0="{AFDFCE5D-2859-411B-A584-8E16B327F7B6}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Find Next" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Notepad" Owner="{9EBECA84-06E2-40A6-AF6E-212E8E0D4135}">
+			<Child Name="Toolbar" Owner="{00142EBB-684E-4B58-BE07-7C96C45C0747}" />
+			<Child Name="DlgSave" Owner="{9AB47374-7331-43F9-8965-E5581BAAC2E8}">
+				<Child Name="btnNoToAll" Owner="{EC9CA673-1DFA-44DD-B8C5-3D2611EE3C25}" />
+			</Child>
+			<Child Name="ActiveEditor" Owner="{51B5C753-6C88-414D-91F9-F433F23C0EBE}" />
+			<Child Name="DlgFind" Owner="{C7D0F857-D86E-4B73-A9D3-FC8A140943FB}">
+				<Child Name="Body" Owner="{AAF4A5B3-2F95-4E18-9210-BA1C0D65D1BD}" />
+				<Child Name="FindTxt" Owner="{7C0C6D89-480B-4207-AF3B-70F359F4352A}" />
+				<Child Name="btnFind" Owner="{4E4846FB-2DF1-4DC4-9F00-89D41DB172D9}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

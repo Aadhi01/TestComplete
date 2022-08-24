@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{CC34A730-192B-4C28-9FAE-0B25C4BA042C}"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="stack"/>
+		<Node name="message 0">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="remarks" type="S" value="One or more keystrokes specified by the &quot;If your application is not in the TestedApps editor, you can launch it in a usual way (for example, by using a desktop shortcut or via the Start menu), and TestComplete will automatically add it to the TestedApps editor.&#xA;[Enter][Enter]&#xA;In any case, TestComplete will add the application launch operation to your recorded test.&#xA;[Enter]&#xA;Running Applications From Keyword Tests[Enter]&#xA;In keyword tests, use the Run TestedApp operation to launch your tested application. You typically add this operation at the beginning of your tests.[Enter]&#xA;[Enter]&#xA;To run several instances of the application, specify the number of instances in the operation’s Count parameter.&quot; string could not be simulated.&lt;br /&gt;&lt;br /&gt;Possible causes of the problem:&lt;br /&gt;* The string syntax is invalid.&lt;br /&gt;* The string includes characters that cannot be inputted using the keyboard layouts installed on the computer.&lt;br /&gt;* The string includes East Asian language characters, but no appropriate IMEs are installed.&lt;br /&gt;* Advanced text services are not applied to the application.&lt;br /&gt;&lt;br /&gt;Tested object:&lt;br /&gt;Aliases.Notepad.ActiveEditor&lt;br /&gt;(Sys.Process(&quot;notepad++&quot;).Window(&quot;Notepad++&quot;, &quot;new 2 - Notepad++&quot;, 1).Window(&quot;Scintilla&quot;, &quot;N&quot;, 1))&lt;html&gt;&lt;body&gt;&lt;code&gt;&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;aqa-help://4241&quot;&gt;Learn more about the problem and possible solutions&lt;/a&gt;"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Incomplete keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="date" type="D" value="44796.7754668634"/>
+		</Node>
+		<Prp name="status" type="I" value="1"/>
+	</Node>
+</Nodes>

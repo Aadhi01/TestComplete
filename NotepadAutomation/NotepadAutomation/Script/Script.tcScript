@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Unit1" key="{03B8FA12-3AAC-4FCA-9C4E-F3BE9271E035}" path="Unit1.py" />
+		<child name="Generic" key="{38B95CE8-083C-48C8-9664-B7EE6169E32A}" path="Generic.py" />
+		<child name="ToolbarMapping" key="{F8129736-2CFF-4C9C-AE1D-92D37EAE0A7D}" path="ToolbarMapping.py" />
+		<child name="Common" key="{CC34A730-192B-4C28-9FAE-0B25C4BA042C}" path="Common.py" />
+		<child name="FindEnum" key="{EA3BECB4-7664-483A-9946-A089380CAB7F}" path="FindEnum.py" />
+	</children>
+</Root>

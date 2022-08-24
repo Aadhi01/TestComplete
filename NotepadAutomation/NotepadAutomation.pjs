@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{6753C951-44B2-406F-B824-94BFC17823F4}">
+	<children>
+		<child name="NotepadAutomation" key="{15CE11C5-D7BF-45FC-AA2A-6235FCD23440}" path="NotepadAutomation\NotepadAutomation.mds" />
+	</children>
+	<testItems key="{19F3241A-E655-40E4-A227-E427F7EB07FF}">
+		<children>
+			<testItem key="{15CE11C5-D7BF-45FC-AA2A-6235FCD23440}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{2F0E8D53-1328-4B75-8B0E-394534B13A0F}" />
+	<analysis key="{5B6C6599-7F98-464F-9262-DAD96945008E}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>
